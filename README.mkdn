@@ -49,7 +49,7 @@ Build UberTC 5.3-cortex-a15 toolchains, rename remove ("-cortex-a15" extension),
 
 cd ~/android/UR4/build && git fetch https://github.com/LiquidSmokeX64/android_build cm-13.0 && git cherry-pick eda19c16e91ee35f8d121070677ffa20e0c53e4a && cd ~/android/UR4
 
-
+cd ~/android/UR4/device/oppo/common && git fetch https://github.com/Thomson2412/android_device_oppo_common cm-13.0 && git cherry-pick 4f744540c07dadeab076068140b57beff29abf8c && cd ~/android/UR4
 
 Build ROM and/or Kernel NOW
 
